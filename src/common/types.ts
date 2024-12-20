@@ -12,7 +12,7 @@ export interface SearchResult {
   url: string;
   snippet: string;
   score?: number;
-  source: "tavily" | "exa";
+  source: "tavily" | "exa" | "ikb";
   metadata?: Record<string, unknown>;
 }
 
